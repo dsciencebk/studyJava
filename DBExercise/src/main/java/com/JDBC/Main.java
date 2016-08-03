@@ -51,7 +51,7 @@ public class Main {
             prepInsert.execute();
             prepInsert.close();
         } else {
-            System.out.println("имя или фамилия введены некорректно!");
+            System.out.println("имя или фамилия введены некорректно, пользователь не будет добавлен в бд!");
         }
     }
 
